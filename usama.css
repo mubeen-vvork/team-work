@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    width: 100%;
+    height:180vh;
+    /* border:1px solid black; */
+
+    
+    
+}
+.c1 {
+    width:100%;
+    height:100px;
+    /* background: silver; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hed h1{
+    font-family: serif;
+    color: rgb(75, 75, 75);
+}
+.l1 {
+    height: 1px;
+    width: 4%;
+    background: rgb(168, 167, 167);
+}
+.l2{
+    height: 1px;
+    width:4%;
+    background: rgb(168, 167, 167);
+    margin-left: 10px;
+}
+.c2 {
+    width:50%;
+    height:20px;
+    /* background: red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.c2 i {
+    color: darkgray;
+    margin-left: 10px;
+}
+.c3 {
+    width:26%;
+    height: 430px;
+    /* border:1px solid black; */
+    margin-left: 5%;
+    overflow: hidden;
+    /* padding: 1px; */
+    float:left;
+    float:bottom;
+}
+.img1{
+    background:url("blog.jpg") ;
+    width:100%;
+    height: 50%;
+    padding: 1px;
+    
+}
+.img1:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.date {
+    height: 55px;
+    width: 14%;
+    background: white;
+    position: relative;
+    z-index: 1;
+    margin-left:20px;
+    margin-top: 10px;
+    align-items: center;
+}
+.date h3{
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn1 {
+    background: rgb(25, 203, 216);
+    border: none;
+    margin-top: 121px;
+    margin-left: 32%;
+    height: 30px;
+    color: white;
+    width:40%;
+}
+.c4 {
+    width:100%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.c4 h1{
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    color: rgb(92, 92, 92);
+}.c4 h6{
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(141, 140, 140);
+
+}
+.c4 p{
+    margin-top: 20px;
+    color:rgb(141, 141, 141);
+}
+.c6 {
+    background-image: url("blog3.jpg");
+}.c7 {
+    background-image: url("blog2.jpg");
+}
+.c8 {
+    background-image: url("blog4.jpg");
+}
+.c9 {
+    background-image: url("blog5.jpg");
+}
+.c10 {
+    background-image: url("blog6.jpg");
+}
+.bt3 {
+    margin-left: 40%;
+    height:50px;
+    width:18%;
+    background: transparent;
+    border: 2px solid black;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bt3:hover{
+    background: black;
+    color:white;
+}
